@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea-Bootstrap</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+<body>
+    <!-- section NAV -->
+    <div class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:5503/index.html"><i class="bi bi-bag pe-2"></i>Mi Camisa.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5503/polos.html">Polos</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5503/camibusos.html">Camibusos</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5503/camisas.html">Camisas</a></li>
+                            <li><a class="dropdown-item" href="http://127.0.0.1:5503/camisetas.html">Camisetas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5503/acercade.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/8273915.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/8273915.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/9517108.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- section cards -->
+    <div class="container-fluid bg-dark ">
+        <h2 class="p-5 text-center text-uppercase text-secondary">tú eliges tu estilo</h2>
+        <div class="row justify-content-evenly">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3 d-flex justify-content-center">
+                <div class="card " style="width: 18rem;">
+                    <img src="https://imagena1.lacoste.com/dw/image/v2/AAUP_PRD/on/demandware.static/-/Sites-master/default/dw58ca4c73/L1212_CB8_21.jpg?imwidth=915&impolicy=product" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Polos</h5>
+                        <p class="card-text">Elegancia casual con nuestras camisas tipo polo, ideales para cualquier ocasión. Cómodas, versátiles y con un toque deportivo.</p>
+                        <a href="http://127.0.0.1:5503/polos.html" class="btn btn-primary">Mirar más modelos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3 d-flex justify-content-center">
+                <div class="card " style="width: 18rem;">
+                    <img src="https://imagena1.lacoste.com/dw/image/v2/AAUP_PRD/on/demandware.static/-/Sites-master/default/dw80ef0beb/TH7315_IXW_20.jpg?imwidth=1920&impolicy=zoom" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Camisetas</h5>
+                        <p class="card-text">Camisetas frescas y modernas para un look relajado. Diseños variados que se adaptan a tu día a día con estilo.</p>
+                        <a href="http://127.0.0.1:5503/camisetas.html" class="btn btn-primary">Mirar más modelos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3 d-flex justify-content-center">
+                <div class="card " style="width: 18rem;">
+                    <img src="https://imagena1.lacoste.com/dw/image/v2/AAUP_PRD/on/demandware.static/-/Sites-master/default/dwa0b0e05a/CH1880_KI4_21.jpg?imwidth=915&impolicy=product" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisas</h5>
+                        <p class="card-text">Camisas clásicas para un estilo impecable. Perfectas para ocasiones formales o casuales, ofreciendo comodidad y elegancia.</p>
+                        <a href="http://127.0.0.1:5503/camisas.html" class="btn btn-primary">Mirar más modelos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3 d-flex justify-content-center">
+                <div class="card " style="width: 18rem;">
+                    <img src="https://imagena1.lacoste.com/dw/image/v2/AAUP_PRD/on/demandware.static/-/Sites-master/default/dw001e4ba6/TH2094_WTA_20.jpg?imwidth=1920&impolicy=zoom" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camibusos</h5>
+                        <p class="card-text">Camibusos versátiles que combinan comodidad y estilo. Ideales para climas frescos, manteniéndote abrigado y a la moda.</p>
+                        <a href="http://127.0.0.1:5503/camibusos.html" class="btn btn-primary">Mirar más modelos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- acordion ventajas -->
+    <div class="container-fluid bg-pink-light">
+        <div class="row justify-content-center">
+            <div class="col-7 pb-5">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <h2 class="p-5 text-center text-uppercase text-secondary">Preguntas frecuentes de nuestros clientes</h2>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"> 
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse" aria-expanded="false" aria-controls="panelsStayOpen-collapse">
+                            Cual es tu talla?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapse" class="accordion-collapse collapse">
+                            <div class=" row">
+                                <div class="col d-flex justify-content-center">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Talla</th>
+                                                <th scope="col">Pecho (cm)</th>
+                                                <th scope="col">Cintura (cm)</th>
+                                                <th scope="col">Hombros (cm)</th>
+                                                <th scope="col">Largo de manga (cm)</th>
+                                                <th scope="col">Largo de camisa (cm)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>XS</td>
+                                                <td>84-88</td>
+                                                <td>74-78</td>
+                                                <td>42-44</td>
+                                                <td>60-62</td>
+                                                <td>68-70</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>S</td>
+                                                <td>88-92</td>
+                                                <td>78-82</td>
+                                                <td>44-46</td>
+                                                <td>62-64</td>
+                                                <td>70-72</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>M</td>
+                                                <td>92-96</td>
+                                                <td>82-86</td>
+                                                <td>46-48</td>
+                                                <td>64-66</td>
+                                                <td>72-74</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>L</td>
+                                                <td>96-100</td>
+                                                <td>86-90</td>
+                                                <td>48-50</td>
+                                                <td>66-68</td>
+                                                <td>74-76</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>XL</td>
+                                                <td>100-104</td>
+                                                <td>90-94</td>
+                                                <td>50-52</td>
+                                                <td>68-70</td>
+                                                <td>76-78</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>XXL</td>
+                                                <td>104-108</td>
+                                                <td>94-98</td>
+                                                <td>52-54</td>
+                                                <td>70-72</td>
+                                                <td>78-80</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Valen la pena nuestras prendas!
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class=" row">
+                                <div class="col d-flex justify-content-center">
+                                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/K9NUh_6wsm4?si=LWkdEJyeZ7g-ntLf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Reconocer una prenda original.
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class=" row">
+                                <div class="col d-flex justify-content-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HGMxt0YHE7g?si=N62R3cuOd31KywFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"> 
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            4 nuevas reglas de estilo para usar tu playera favorita.
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class=" row">
+                                <div class="col d-flex justify-content-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRG0I8RiyaI?si=xkmRM9JIxKJQ1lnT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- seccion te escuchamos -->
+    
+    <!-- Button trigger modal -->
+    <div class="container-fluid p-5 bg-dark" id="contacto">
+        <div class="row ">
+            <h2 class="p-5 text-center text-uppercase text-secondary">Contactanos</h2>
+            <div class="col d-flex justify-content-evenly">
+                <button type="button" class="btn btn-primary m-2 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Envianos tu mensaje. 
+                </button>
+            </div>
+        </div>
+    </div>
+   <!-- modal 1 -->
+    <div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Fill out the form and make your inquiry</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-6">
+                            <label for="validationServer01" class="form-label">First name</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                            <div class="valid-feedback">
+                            Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer02" class="form-label">Last name</label>
+                            <input type="text" class="form-control is-valid" id="validationServer02" value="Lopez" required>
+                            <div class="valid-feedback">
+                            Looks good!
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-md-6">
+                            <label for="validationServer04" class="form-label">City</label>
+                            <select class="form-select is-invalid" id="validationServer03" aria-describedby="validationServer04Feedback" required>
+                                <option value="">Seleccione una ciudad</option>
+                                <option value="bogota">Bogotá</option>
+                                <option value="medellin">Medellín</option>
+                                <option value="cali">Cali</option>
+                                <option value="barranquilla">Barranquilla</option>
+                                <option value="cartagena">Cartagena</option>
+                                <option value="bucaramanga">Bucaramanga</option>
+                                <option value="cucuta">Cúcuta</option>
+                                <option value="pereira">Pereira</option>
+                                <option value="santa_marta">Santa Marta</option>
+                                <option value="ibague">Ibagué</option>
+                                <option value="manizales">Manizales</option>
+                                <option value="villavicencio">Villavicencio</option>
+                                <option value="pasto">Pasto</option>
+                                <option value="monteria">Montería</option>
+                                <option value="neiva">Neiva</option>
+                                <option value="popayan">Popayán</option>
+                                <option value="valledupar">Valledupar</option>
+                                <option value="sincelejo">Sincelejo</option>
+                                <option value="tunja">Tunja</option>
+                                <option value="riohacha">Riohacha</option>
+                                <option value="armenia">Armenia</option>
+                                <option value="yopal">Yopal</option>
+                                <option value="florencia">Florencia</option>
+                                <option value="quibdo">Quibdó</option>
+                                <option value="mocoa">Mocoa</option>
+                                <option value="leticia">Leticia</option>
+                                <option value="mitu">Mitú</option>
+                                <option value="san_andres">San Andrés</option>
+                                <option value="puerto_carreño">Puerto Carreño</option>
+                            </select>
+                            <div id="validationServer04Feedback" class="invalid-feedback">
+                            Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer04" class="form-label">State</label>
+                            <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option value="">Seleccione un estado</option>
+                                <option value="amazonas">Amazonas</option>
+                                <option value="antioquia">Antioquia</option>
+                                <option value="arauca">Arauca</option>
+                                <option value="atlántico">Atlántico</option>
+                                <option value="bolívar">Bolívar</option>
+                                <option value="boyacá">Boyacá</option>
+                                <option value="caldas">Caldas</option>
+                                <option value="caquetá">Caquetá</option>
+                                <option value="casanare">Casanare</option>
+                                <option value="cauca">Cauca</option>
+                                <option value="cesar">Cesar</option>
+                                <option value="chocó">Chocó</option>
+                                <option value="córdoba">Córdoba</option>
+                                <option value="cundinamarca">Cundinamarca</option>
+                                <option value="guainía">Guainía</option>
+                                <option value="guaviare">Guaviare</option>
+                                <option value="huila">Huila</option>
+                                <option value="la_guajira">La Guajira</option>
+                                <option value="magdalena">Magdalena</option>
+                                <option value="meta">Meta</option>
+                                <option value="nariño">Nariño</option>
+                                <option value="norte_de_santander">Norte de Santander</option>
+                                <option value="putumayo">Putumayo</option>
+                                <option value="quindío">Quindío</option>
+                                <option value="risaralda">Risaralda</option>
+                                <option value="san_andrés_y_providencia">San Andrés y Providencia</option>
+                                <option value="santander">Santander</option>
+                                <option value="sucre">Sucre</option>
+                                <option value="tolima">Tolima</option>
+                                <option value="valle_del_cauca">Valle del Cauca</option>
+                                <option value="vaupés">Vaupés</option>
+                                <option value="vichada">Vichada</option>
+                            </select>
+                            <div id="validationServer04Feedback" class="invalid-feedback">
+                            Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="validationServer05" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control is-invalid" id="validationServer05" placeholder="Mobile phone" aria-describedby="validationServer06Feedback" required>
+                            <div id="validationServer06Feedback" class="invalid-feedback">
+                                Please provide a valid phone number.
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="validationServer06" class="form-label">Email</label>
+                            <input type="email" class="form-control is-invalid" id="validationServer06" placeholder="name@example.com" aria-describedby="validationServer05Feedback" required>
+                            <div id="validationServer05Feedback" class="invalid-feedback">
+                            Please provide your Email.
+                            </div>
+                        </div>
+                       
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Write your quetions</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                                <label class="form-check-label" for="invalidCheck3">
+                                Agree to terms and conditions
+                                </label>
+                                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                                You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    var form = document.querySelector('.needs-validation');
+
+    form.addEventListener('submit', function (event) {
+        // Evita el envío del formulario si hay campos no válidos
+        if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+
+        form.classList.add('was-validated');
+    }, false);
+
+    var submitButton = document.querySelector('.modal-footer .btn-primary');
+    submitButton.addEventListener('click', function () {
+        form.dispatchEvent(new Event('submit'));
+    });
+
+    // Validaciones personalizadas
+    var firstName = document.getElementById('validationServer01');
+    var lastName = document.getElementById('validationServer02');
+    var city = document.getElementById('validationServer03');
+    var state = document.getElementById('validationServer04');
+    var phoneNumber = document.getElementById('validationServer05');
+    var email = document.getElementById('validationServer06');
+    var textarea = document.getElementById('exampleFormControlTextarea1');
+    var checkbox = document.getElementById('invalidCheck3');
+
+    // Validación del nombre
+    firstName.addEventListener('input', function () {
+        if (firstName.value.trim() === '') {
+            firstName.classList.add('is-invalid');
+            firstName.nextElementSibling.textContent = 'Please provide a valid first name.';
+        } else {
+            firstName.classList.remove('is-invalid');
+            firstName.classList.add('is-valid');
+        }
+    });
+
+    // Validación del apellido
+    lastName.addEventListener('input', function () {
+        if (lastName.value.trim() === '') {
+            lastName.classList.add('is-invalid');
+            lastName.nextElementSibling.textContent = 'Please provide a valid last name.';
+        } else {
+            lastName.classList.remove('is-invalid');
+            lastName.classList.add('is-valid');
+        }
+    });
+
+    // Validación de la ciudad
+    city.addEventListener('change', function () {
+        if (city.value === '') {
+            city.classList.add('is-invalid');
+            city.nextElementSibling.textContent = 'Please select a valid city.';
+        } else {
+            city.classList.remove('is-invalid');
+            city.classList.add('is-valid');
+        }
+    });
+
+    // Validación del estado
+    state.addEventListener('change', function () {
+        if (state.value === '') {
+            state.classList.add('is-invalid');
+            state.nextElementSibling.textContent = 'Please select a valid state.';
+        } else {
+            state.classList.remove('is-invalid');
+            state.classList.add('is-valid');
+        }
+    });
+
+    // Validación del número de teléfono
+    phoneNumber.addEventListener('input', function () {
+        var phonePattern = /^(?:\+57)?(3\d{9})$/; // Patrón para números de teléfono en Colombia
+        if (!phonePattern.test(phoneNumber.value)) {
+            phoneNumber.classList.add('is-invalid');
+            phoneNumber.nextElementSibling.textContent = 'Please provide a valid phone number.';
+        } else {
+            phoneNumber.classList.remove('is-invalid');
+            phoneNumber.classList.add('is-valid');
+        }
+    });
+
+    // Validación del correo electrónico
+    email.addEventListener('input', function () {
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        if (!emailPattern.test(email.value)) {
+            email.classList.add('is-invalid');
+            email.nextElementSibling.textContent = 'Please provide a valid email address.';
+        } else {
+            email.classList.remove('is-invalid');
+            email.classList.add('is-valid');
+        }
+    });
+
+    // Validación del campo de texto (textarea)
+    textarea.addEventListener('input', function () {
+        if (textarea.value.trim() === '') {
+            textarea.classList.add('is-invalid');
+            textarea.nextElementSibling.textContent = 'Please provide a message.';
+        } else {
+            textarea.classList.remove('is-invalid');
+            textarea.classList.add('is-valid');
+        }
+    });
+
+    // Validación del checkbox
+    checkbox.addEventListener('change', function () {
+        if (!checkbox.checked) {
+            checkbox.classList.add('is-invalid');
+            checkbox.nextElementSibling.textContent = 'You must agree before submitting.';
+        } else {
+            checkbox.classList.remove('is-invalid');
+            checkbox.classList.add('is-valid');
+        }
+    });
+
+    // También puedes hacer que la validación se ejecute cuando el usuario intente enviar el formulario
+    submitButton.addEventListener('click', function () {
+        form.dispatchEvent(new Event('submit'));
+
+        if (firstName.value.trim() === '') {
+            firstName.classList.add('is-invalid');
+            firstName.nextElementSibling.textContent = 'Please provide a valid first name.';
+        }
+
+        if (lastName.value.trim() === '') {
+            lastName.classList.add('is-invalid');
+            lastName.nextElementSibling.textContent = 'Please provide a valid last name.';
+        }
+
+        if (city.value === '') {
+            city.classList.add('is-invalid');
+            city.nextElementSibling.textContent = 'Please select a valid city.';
+        }
+
+        if (state.value === '') {
+            state.classList.add('is-invalid');
+            state.nextElementSibling.textContent = 'Please select a valid state.';
+        }
+
+        if (!emailPattern.test(email.value)) {
+            email.classList.add('is-invalid');
+            email.nextElementSibling.textContent = 'Please provide a valid email address.';
+        }
+
+        if (textarea.value.trim() === '') {
+            textarea.classList.add('is-invalid');
+            textarea.nextElementSibling.textContent = 'Please provide a message.';
+        }
+
+        if (!checkbox.checked) {
+            checkbox.classList.add('is-invalid');
+            checkbox.nextElementSibling.textContent = 'You must agree before submitting.';
+        }
+    });
+});
+
+    </script>
+</body>
+</html>
